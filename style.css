@@ -137,8 +137,8 @@ html, body {
   z-index: 50;
 }
 .top-bar img {
-  width: 150px;
-  height: 150px;
+  width: 225px;
+  height: 225px;
   display: block;
   object-fit: contain;
 }
