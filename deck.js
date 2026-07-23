@@ -21,7 +21,7 @@
     if (s.querySelector('.top-bar')) return;
     const bar = document.createElement('div');
     bar.className = 'top-bar';
-    bar.innerHTML = '<div>AI 求职搭子 · WorkBuddy</div>';
+    bar.innerHTML = '<img src="assets/qrcode.png" alt="二维码" />';
     s.appendChild(bar);
   });
 

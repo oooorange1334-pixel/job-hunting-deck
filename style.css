@@ -130,14 +130,17 @@ html, body {
 /* ---------- 顶部双角色 bar ---------- */
 .top-bar {
   position: absolute;
-  top: 60px;
-  right: 120px;
+  top: 40px;
+  right: 90px;
   display: flex;
   align-items: center;
-  gap: 20px;
-  font-size: 22px;
-  font-weight: 700;
-  color: var(--ink-3);
+  z-index: 50;
+}
+.top-bar img {
+  width: 150px;
+  height: 150px;
+  display: block;
+  object-fit: contain;
 }
 .top-bar-plus { display: none; }
 
